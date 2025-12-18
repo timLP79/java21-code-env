@@ -1,5 +1,6 @@
 {
-  "name": "Java 21 Tutorial Env",
+  "name": "Java 21 OpenJDK",
+  // This pins it to the Microsoft Build of OpenJDK 21 specifically
   "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
   "customizations": {
     "vscode": {
@@ -7,5 +8,6 @@
         "vscjava.vscode-java-pack"
       ]
     }
-  }
+  },
+  "remoteUser": "vscode"
 }
